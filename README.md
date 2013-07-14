@@ -11,6 +11,9 @@ Features:
 * Multiple line support.
 * Inbuilt auto height adjustable contenteditable div
 
+Demo
+----
+Please see a [demo](http://htmlpreview.github.io/?https://github.com/navoneel/Advanced-Jquery-Autosuggestion/blob/master/example.html) here.
 
 Usage:
 -----
