@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Advanced-jquery-autosuggestion : A Jquery plugin built over Jquery-UI Autosuggestion to enable multiple tags." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Advanced-jquery-autosuggestion</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/navoneel/Advanced-Jquery-Autosuggestion">View on GitHub</a>
+
+          <h1 id="project_title">Advanced-jquery-autosuggestion</h1>
+          <h2 id="project_tagline">A Jquery plugin built over Jquery-UI Autosuggestion to enable multiple tags.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/navoneel/Advanced-Jquery-Autosuggestion/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/navoneel/Advanced-Jquery-Autosuggestion/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="advanced-jquery-autosuggestion" class="anchor" href="#advanced-jquery-autosuggestion"><span class="octicon octicon-link"></span></a>Advanced-Jquery-Autosuggestion</h1>
+
+<p>A Jquery plugin built over Jquery-UI Autosuggestion</p>
+
+<h2>
+<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features:</h2>
+
+<ul>
+<li>Multiple word auto-suggestion.</li>
+<li>Auto-suggestion in any caret position - at the end of text or in-between texts.</li>
+<li>Multiple line support.</li>
+<li>Inbuilt auto height adjustable contenteditable div</li>
+</ul><h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage:</h2>
+
+<p>For Default behaviour - without any options :</p>
+
+<pre><code>&lt;body&gt;
+Enter you text here
+&lt;div class="textarea" contenteditable="true"&gt;&lt;/div&gt;
+&lt;/body&gt;
+
+&lt;script&gt;
+  $(document).ready( function() {
+  $('.textarea').advancedautosuggestion();
+});
+&lt;/script&gt;
+</code></pre>
+
+<h2>
+<a name="options" class="anchor" href="#options"><span class="octicon octicon-link"></span></a>Options:</h2>
+
+<ul>
+<li>tagsreturnedfromServer - Array of suggestions from which user would choose.</li>
+<li>customstyle - style of the tagged content.</li>
+</ul><p>Example:</p>
+
+<pre><code> $('.textarea').advancedautosuggestion(   
+    tagsreturnedfromServer: [
+                    "example.com",
+                    "akamai.com",
+                    "2charts.com",
+                    "gmail.com",
+                    "jquery.com",
+                    "yahoo.com",
+                    "ymail.com",
+                    "hotmail.com"
+                ],
+
+    customstyle: 'color:green'
+
+);
+</code></pre>
+
+<h1>
+<a name="credits" class="anchor" href="#credits"><span class="octicon octicon-link"></span></a>CREDITS</h1>
+
+<p>advancedAutoSuggestion.js - <a href="https://github.com/navoneel">Navoneel Pal</a></p>
+
+<h1>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>LICENSE</h1>
+
+<p>MIT</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Advanced-jquery-autosuggestion maintained by <a href="https://github.com/navoneel">navoneel</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
