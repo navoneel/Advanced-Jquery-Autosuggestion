@@ -40,17 +40,14 @@ Example:
     
      $('.textarea').advancedautosuggestion(   
         tagsreturnedfromServer: [
-                        "example.com",
-                        "akamai.com",
-                        "2charts.com",
-                        "gmail.com",
-                        "jquery.com",
-                        "yahoo.com",
-                        "ymail.com",
-                        "hotmail.com"
+                        "abc.com",
+			"apple.com",
+			"aol.com",
+			"jquery.com",
+			"java.com"
                     ],
         
-        customstyle: 'color:green'
+        customstyle: 'background:grey;color:white'
         
     );
 

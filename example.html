@@ -108,7 +108,12 @@ Enter you text here
 
 <script>
     $(document).ready( function() {
-    $('.textarea').advancedautosuggestion();
+    $('.textarea').advancedautosuggestion({
+            tagsreturnedfromServer: [
+                "abc.com","apple.com","aol.com","jquery.com","java.com"
+            ],
+            customstyle: 'background:grey;color:white'
+        });
 });
     
 </script>

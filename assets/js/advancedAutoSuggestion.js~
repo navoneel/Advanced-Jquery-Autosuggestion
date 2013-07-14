@@ -6,7 +6,7 @@
                 "example.com", "akamai.com", "2charts.com", "gmail.com", "jquery.com", "yahoo.com", "ymail.com", "hotmail.com"
             ],
             customstyle: 'color:green'
-        },options);
+        });
 
 
 
